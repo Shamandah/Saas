@@ -46,8 +46,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Finance',
     'MasterData',
-    'HumanResource',
     'Customer_Relation',
+    'HumanResource',
     'IT',
 ]
 
@@ -192,3 +192,4 @@ if not DEBUG:
     SECURE_BROWSER_XSS_FILTER = True
     # Note: Railway handles HTTPS termination, so if you get redirect loops, 
     # set SECURE_SSL_REDIRECT = False and let Railway handle it.
+
